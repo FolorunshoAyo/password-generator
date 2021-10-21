@@ -1,0 +1,59 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, hsl(228, 78%, 48%), hsl(225, 42%, 55%));
+}
+
+div.main-box{
+    width: 50%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.head{
+    word-spacing: 0.5em;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 0.3em;
+}
+
+.main-body{
+    padding: 2em 2em;
+}
+
+
+.form-group > input{
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 2em;
+    font-size: 0.8em;
+    border-radius: 1em;
+    letter-spacing: 0.1em;
+}
+
+input[type="radio"]{
+    margin-right: 0.8em;
+}
+.radio-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+button[type="submit"]{
+    margin: 2em auto 1em;
+    display: block;
+    padding: 0.8em;
+    background-color: hsl(228, 78%, 48%);
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}
